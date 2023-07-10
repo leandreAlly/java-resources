@@ -6,6 +6,8 @@ public class Main {
 
         JavaArray javaArrayObj = new JavaArray();
         JavaStrings javaStringsObj = new JavaStrings();
+        JavaLoops javaLoopObj = new JavaLoops();
+        JavaConditionStatement condObj = new JavaConditionStatement();
 
         int number1 = 10;
         int number2 = 20;
@@ -17,5 +19,8 @@ public class Main {
 
         javaStringsObj.printString();
         javaArrayObj.printArray();
+        javaLoopObj.printLoops();
+        javaLoopObj.printArrayName();
+        condObj.checkAdult();
     }
 }

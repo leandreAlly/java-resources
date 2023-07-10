@@ -8,6 +8,7 @@ public class Main {
         JavaStrings javaStringsObj = new JavaStrings();
         JavaLoops javaLoopObj = new JavaLoops();
         JavaConditionStatement condObj = new JavaConditionStatement();
+        JavaMethod methodObj = new JavaMethod();
 
         int number1 = 10;
         int number2 = 20;
@@ -17,10 +18,14 @@ public class Main {
         boolean isAdult = true;
         char a = 'A';
 
+        double rentYield =  Math.round(methodObj.culculateRentalYield(1_300, 250_000));
+        System.out.println("Rental Yield: "+rentYield);
+
         javaStringsObj.printString();
         javaArrayObj.printArray();
         javaLoopObj.printLoops();
         javaLoopObj.printArrayName();
         condObj.checkAdult();
+
     }
 }

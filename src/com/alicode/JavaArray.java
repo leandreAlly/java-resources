@@ -6,7 +6,7 @@ public class JavaArray {
         int[] numbers = new int[3];
         numbers[0] = 1;
         numbers[1] = 12;
-        numbers[2] = 6;
+        numbers[2] = 10;
 
         System.out.println(Arrays.toString(numbers));
         System.out.println(numbers.length);
